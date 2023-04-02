@@ -2,7 +2,7 @@
 A tiny app for tracking interval times
 
 ## Why I built it:
-This is seriously a tiny, lowkey web app I just slapped together in a few hours over the weekend. Don't expect much. The reason I created it is I needed a way to track a physical symptom I've been having so I can have insight into its rate of occurance. I built it with HTML, CSS, and vanilla JS.
+This is seriously a tiny, lowkey web app I just slapped together in a few hours over the weekend. Don't expect much. The reason I created it is I needed a way to easily and conveniently track a physical symptom I've been having so I can have insight into its rate of occurance. I built it with HTML, CSS, and vanilla JS.
 
 ### How it works
 Click "Add Time" button to add the current time. The "Notes" field is optional. You can also optionally set a "Custom Time" if you want to track an occurance that happened prior to the current time. If you do enter a custom time, make sure that is is not a time that is prior to the most recently entered time, otherwise it will break the interval length calculation.

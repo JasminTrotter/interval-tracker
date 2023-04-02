@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Interval Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class='input-wrapper'>
+    <div class='button-wrapper'>
+      <button id='delete'>Delete Latest Time</button>
+      <button id='recover'>Recover Last Deleted Time</button>
+    </div>
+    <div class='add-time-wrapper'>
+      <label for="custom-time-input">Custom Time:</label>
+      <input type="time" id="custom-time-input">
+    </div>
+    <div>
+      <label for="notes-input">Notes:</label>
+      <textarea id="notes-input"></textarea>
+    </div>
+    <button id='add'>Add Time</button>
+  </div>
+  <div id='table-parent'></div>
+  <script src="index.js"></script>
+</body>
+
+</html>

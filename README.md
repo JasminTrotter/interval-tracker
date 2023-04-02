@@ -11,3 +11,6 @@ The last entered time can be deleted by clicking "Delete Latest Time," and if yo
 
 ### Data Storage:
 The application utilizes local storage to persist the interval data. So, the app is best used on only one device in one browser for accurate tracking (data will not persist across devices/browsers). I intend to use the app on my phone since it is most easily accessible while symptoms occur multiple times per day. 
+
+### Deployment
+The app is deployed on Github Pages here: https://jasmintrotter.github.io/interval-tracker/
